@@ -1,0 +1,102 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="imam.s18090039.penjualan"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:6:5-67
+11-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:6:22-64
+12
+13    <application
+13-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:8:5-40:19
+14        android:allowBackup="false"
+14-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:9:9-36
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\ce1635782ed616d72db5bb7f69df3596\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:13:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme"
+22-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:14:9-40
+23        android:usesCleartextTraffic="true" >
+23-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:15:9-44
+24        <activity
+24-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:17:9-25:20
+25            android:name="imam.s18090039.penjualan.activity._main.Splasschreen"
+25-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:18:13-80
+26            android:theme="@style/Theme.AppCompat.NoActionBar" >
+26-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:19:13-63
+27            <intent-filter>
+27-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:20:13-24:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:21:17-69
+28-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:21:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:23:17-77
+30-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:23:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity android:name="imam.s18090039.penjualan.activity.report.ReportActivity" />
+33-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:26:9-101
+33-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:26:19-89
+34        <activity android:name="imam.s18090039.penjualan.activity.penjualan.PenjualanBarang" />
+34-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:27:9-96
+34-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:27:19-93
+35        <activity android:name="imam.s18090039.penjualan.activity.data_barang.DataBarangActivity" />
+35-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:28:9-101
+35-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:28:19-98
+36        <activity android:name="imam.s18090039.penjualan.activity.register.RegisterActivity" />
+36-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:29:9-96
+36-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:29:19-93
+37        <activity android:name="imam.s18090039.penjualan.activity.data_barang._add.AddBarangActivity" />
+37-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:30:9-105
+37-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:30:19-102
+38        <activity android:name="imam.s18090039.penjualan.activity.login.LoginActivity" >
+38-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:31:9-38:20
+38-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:31:19-87
+39            <intent-filter>
+39-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:32:13-37:29
+40                <action android:name="android.intent.action.VIEW" />
+40-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:33:17-69
+40-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:33:25-66
+41                <action android:name="android.intent.action.MAIN" />
+41-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:21:17-69
+41-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:21:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:23:17-77
+43-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:23:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity android:name="imam.s18090039.penjualan.activity._main.MainActivity" />
+46-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:39:9-89
+46-->D:\mk\smster6\mobile dev\UTS\app\src\main\AndroidManifest.xml:39:19-86
+47
+48        <provider
+48-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\63103c486f858612f04404cc298c4f4a\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+49            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+49-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\63103c486f858612f04404cc298c4f4a\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+50            android:authorities="imam.s18090039.penjualan.lifecycle-process"
+50-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\63103c486f858612f04404cc298c4f4a\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+51            android:exported="false"
+51-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\63103c486f858612f04404cc298c4f4a\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+52            android:multiprocess="true" />
+52-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\LENOVO\.gradle\caches\transforms-2\files-2.1\63103c486f858612f04404cc298c4f4a\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+53    </application>
+54
+55</manifest>

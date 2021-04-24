@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="@dimen/far"
+    tools:context=".activity.login.LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/normal"
+        android:src="@drawable/gambar"
+        app:layout_constraintBottom_toTopOf="@id/etLoginUsername"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/etLoginUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/background_light"
+        android:hint="username"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etLoginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/normal"
+        android:layout_marginBottom="@dimen/high"
+        android:background="@drawable/background_light"
+        android:hint="password"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etLoginUsername" />
+
+
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etLoginPassword"
+        android:layout_alignEnd="@id/etLoginPassword"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="228dp"
+        android:background="@drawable/background_dark"
+        android:text="Masuk"
+        android:textColor="@color/colorFree"
+        app:layout_constraintEnd_toEndOf="@id/etLoginPassword"
+        app:layout_constraintTop_toBottomOf="@id/etLoginPassword" />
+
+    <TextView
+        android:id="@+id/goRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="208dp"
+        android:hint="Daftar sekarang"
+        android:padding="@dimen/normal"
+        app:layout_constraintBaseline_toBaselineOf="@id/btLogin"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
